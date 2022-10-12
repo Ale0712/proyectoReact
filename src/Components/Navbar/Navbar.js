@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.jpeg";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 const Navbar = () => {
   return (
@@ -13,6 +14,7 @@ const Navbar = () => {
         <a href="">Nosotros</a>
         <a href="">Contacto</a>
       </nav>
+      <ShoppingCartIcon color="primary" fontSize="large" />;
     </header>
   );
 };

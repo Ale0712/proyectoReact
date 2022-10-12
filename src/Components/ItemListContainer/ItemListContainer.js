@@ -1,11 +1,10 @@
 import React from "react";
 
-const ItemListContainer = () => {
-  const mensaje = "Hola como estas ?";
+export const ItemListContainer = ({ greeting, mensaje }) => {
   return (
     <>
-      <ItemListContainer greeting={mensaje} />
+      <h1>{greeting}</h1>
+      <h1>{mensaje}</h1>
     </>
   );
 };
-export default App;

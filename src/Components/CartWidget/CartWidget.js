@@ -1,3 +1,6 @@
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
-<ShoppingCartIcon color="primary" fontSize="large" />;
+const ShoppingCartIcon = () => {
+  <ShoppingCartIcon color="primary" fontSize="large" />;
+};
+export default ShoppingCartIcon;
